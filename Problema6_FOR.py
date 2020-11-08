@@ -41,10 +41,10 @@ print('suma este ', s5)
 n = eval(input("n = "))
 s6 = 3
 for i in range(2,n+1):
-	z = 0  # nr. de cifre a nr. i
-	k = i  # memoram valoarea lui i in k
-	while k!=0: #cit timp nr. k != 0 
-		k//=10 # aflam citul
-		z+=1   # incrementam nr. de cifre
-	s6+=2*10**z+i # aduagam 2*10^z+i la suma	
+	z = 0  
+	k = i 
+	while k!=0:
+		k//=10 
+		z+=1  
+	s6+=2*10**z+i 	
 print('suma este ', s6)
